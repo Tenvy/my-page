@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="568index.css">
+    
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Nunito&display=swap');
+
+        body {
+            background: black;
+        }
+
+        .image {
+            text-align: center;
+        }
+
+        .guyimage {
+            border-radius: 50%;
+            width: 20%;
+            position: relative;
+            margin-top: 30px;
+            min-width: 200px;
+        }
+
+        .welcome {
+            font-family: 'nunito', sans-serif;
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 30px;
+        }
+
+        .question {
+            font-family: 'nunito', sans-serif;
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .answer {
+            text-decoration: none;
+            color: white;
+        }
+
+        .socialmedia {
+            font-family: 'nunito', sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            
+
+        }
+
+        .aboutme {
+            font-family: 'nunito', sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .comingsoon {
+            font-family: 'nunito', sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+
+        footer {
+            margin-top: 200px;
+            text-align: center;
+            font-family: 'nunito', sans-serif;
+            color: white;
+            flex-shrink: 0;
+            padding: 20px;
+			
+			/* tambahkan height 20px supaya tinggi nya tidak berubah ubah */
+			height: 20px;
+        }
+		
+		.wrapper {
+			/* kasi width 100% supaya isi website yang awalnya dari body tidak akan ada perubahan tampilannya */
+			width: 100%;
+			
+			/* kasi min-height 100vh (100vh = tinggi layar (in a nutshell sih)). minimal height ini fungsinya untuk dorong footer ke bawah */
+			min-height: 100vh;
+			
+			/* kasi space dibawah untuk footer, di footer ada padding 20px, artinya footer ada padding top 20px, padding bottom 20px, dan height nya 20px. Total tinggi footer = 60px */
+			margin-bottom: -60px;
+		}
+    </style>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+	
+		<div class="image">
+			<img class="guyimage" src="./untitledguy.gif" alt="">
+		</div>
+
+		<div class="welcome">
+			<h1>welcome to my page!</h1>
+		</div>
+
+		<div class="question">
+			<h1>what can you found here?</h1>
+		</div>
+
+		<div class="socialmedia">
+			<h1><a class="answer" href="./socialmedia/socialmedia.html">social media</a></h1>
+		</div>
+
+		<div class="aboutme">
+			<h1><a class="answer" href="./aboutme/aboutme.html">about me</a></h1>
+		</div>
+
+		<div class="comingsoon answer">
+			<h1>coming soon</h1>
+		</div>
+	</div>
+
+
+    <footer>
+       <p>updated 22 august 2021</p>
+    </footer>
+    
+</body>
+</html>
